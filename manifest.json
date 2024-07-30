@@ -1,0 +1,19 @@
+{
+	"manifest_version": 3,
+	"name": "Youtube Multitasker",
+	"version": "1.1",
+	"icons":  {
+		"128": "images/multi-yt.png"
+	},
+	"permissions": ["sidePanel",  "storage"],
+	"action": {
+		"default_title": "Click to open panel"
+	},
+	"side_panel": {
+		"default_path": "sidePanel.html"
+	},
+	"background": {
+		"service_worker": "service-worker.js",
+		"type": "module"
+	}
+}

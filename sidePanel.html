@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Multiple Youtube Vids</title>
+	<link rel="stylesheet" href="sidePanel.css">
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+	<header>
+		Multiple Video Viewer
+	</header>
+	<main>
+		<template>
+			<div class="drop-area">
+				Drag link here
+			</div>
+			<div class="resizer" draggable="false">
+				<span class="material-symbols-outlined">
+					drag_handle
+				</span>
+			</div>
+			<div class="options-container">
+				<button class="remover"><span class="material-symbols-outlined">
+						close
+					</span></button>
+				<button class="expander">
+					<span class="material-symbols-outlined">
+						expand_all
+					</span>
+				</button>
+			</div>
+		</template>
+	</main>
+	<footer>
+		<button class="reset-sizes">
+			<span class="material-symbols-outlined">
+				balance
+			</span>
+			Reset Sizes
+		</button>
+	</footer>
+	<script type="module" src="sidePanel.js"></script>
+</body>
+
+</html>
